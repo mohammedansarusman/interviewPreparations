@@ -1,1 +1,43 @@
+The main difference between a library and a framework lies in control flow—who is in charge, you or the code you're using. Here's a breakdown:
+
+🔹 Library
+You call the library.
+It’s a collection of functions/methods you can use in your own code.
+You’re in control of the flow of the program.
+Think of it like: "I use the library when I want, how I want."
+
+Example:
+Using Math.sqrt() in JavaScript or NumPy in Python—you decide when and how to use the functions.
+
+🔹 Framework
+The framework calls you.
+It provides a structure and you plug your code into it.
+The framework controls the flow—you follow its rules.
+Think of it like: "I write some code, but the framework is the boss."
+
+Example:
+With web frameworks like Django or React, you follow the framework's structure and it calls your code at the appropriate time (e.g., routing, rendering).
+
+🧠 Easy Analogy:
+Library: You're the chef; you pick and use tools from the kitchen.
+
+Framework: You're on a cooking show; the show gives you the format and tells you what to do when.
+
+✅ Officially, React is a library, not a framework.
+Why?
+React focuses only on the UI layer (building components and rendering views).
+
+You’re still in control of things like routing, data fetching, and state management (unless you add other tools).
+
+So, React gives you the tools, but you decide how to structure the app.
+
+🤔 But... it feels like a framework sometimes?
+Yes, because:
+
+It’s often used with extras like React Router, Redux, or Next.js.
+
+Combined, these tools start acting like a full framework.
+
+For example, Next.js is actually considered a framework built on top of React.
+
 

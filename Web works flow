@@ -1,0 +1,15 @@
+🌐 How the Web Works — A Simple Breakdown
+
+When a user enters a URL (like www.example.com) in the browser, here's what happens behind the scenes:
+
+DNS Lookup: The browser checks with the DNS (Domain Name System) to find the IP address associated with that domain name.
+
+Connecting to the Server: Once the IP address is found, the browser sends a request to the server at that address.
+
+Server Response: The server processes the request and sends back the website’s files — typically HTML, CSS, and JavaScript.
+
+Rendering the Page: The browser then uses these files to display the website on the user's screen.
+
+This process happens in just milliseconds!
+
+Understanding this flow is key to diving deeper into web development and networking. 💡

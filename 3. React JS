@@ -1,0 +1,6 @@
+React JS is an open-source JavaScript library developed by Facebook, used to build fast and interactive user interfaces, especially for web apps.
+
+It uses a component-based architecture, which means the UI is split into reusable pieces.
+
+React uses a virtual DOM to optimize updates, making it very fast. JSX (JavaScript XML) is used to write components in a way that looks like HTML but works like JavaScript.
+

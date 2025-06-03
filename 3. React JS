@@ -4,3 +4,6 @@ It uses a component-based architecture, which means the UI is split into reusabl
 
 React uses a virtual DOM to optimize updates, making it very fast. JSX (JavaScript XML) is used to write components in a way that looks like HTML but works like JavaScript.
 
+State - to store a value ( string, number, array, object ... )
+
+class based componenets - code readabilty is not good, using lot of this command 

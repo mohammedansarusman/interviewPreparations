@@ -6,4 +6,19 @@ React uses a virtual DOM to optimize updates, making it very fast. JSX (JavaScri
 
 State - to store a value ( string, number, array, object ... )
 
-class based componenets - code readabilty is not good, using lot of this command 
+class based componenets - code readabilty is not good, using lot of this command can cause lot of memory leaks.
+
+Node Modules:-
+In dependencies you can see react, react dom and other packages. these packages using other packages are saved in node modules.
+node modules will not push in git or production due to high memory space consumption.
+
+Nested objects one example
+const company = {
+  userName: {
+    employeeName: "Web Developer"
+  }
+}
+
+const { userName: {employeeName} } = company;
+
+console.log("emp:",employeeName)
